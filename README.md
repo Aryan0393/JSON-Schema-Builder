@@ -53,20 +53,6 @@ Visit http://localhost:5173 to use the app.
 This project is deployed using Vercel.
 🔗 Live Demo: https://json-schema-builder-beta.vercel.app/
 
-
-📁 Project Structure
-bash
-Copy
-Edit
-src/
-├── components/
-│   ├── SchemaBuilder.tsx     # Main schema builder UI
-│   ├── FieldRow.tsx          # Each editable field row
-│   └── JSONPreview.tsx       # JSON live output view
-├── types/
-│   └── schema.ts             # TypeScript interfaces for fields
-├── App.tsx
-└── main.tsx
 🧠 How It Works
 Users can create fields with types: String, Number, or Nested.
 
